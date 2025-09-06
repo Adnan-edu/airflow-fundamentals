@@ -492,3 +492,10 @@ Sensors in Airflow have an important "gotcha" concerning how they operate, speci
 3. **DAGs 03, 05** both use FileSensor to wait for listings file before processing
 4. **DAGs 05, 06** both integrate with PostgreSQL for data extraction
 5. All DAGs run every minute with `catchup=False` to avoid backfilling
+
+<a id="acknowledgments"></a>
+## ![Credits Badge](https://img.shields.io/badge/Credits-IvanMushketyk-blue?style=flat-square)
+
+The content is based on Ivan's comprehensive `Fundamentals of Apache Airflow` course and reflects his expertise in making complex airflow concepts accessible through practical, hands-on examples.
+
+Visit [Ivan's Courses](https://zerotomastery.io/about/instructor/ivan-mushketyk/) for more resources on Data Engineering.
